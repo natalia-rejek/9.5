@@ -1,5 +1,7 @@
-var withButtonClass = document.getElementsByClassName('btn');
-console.log(withButtonClass);
-for (i=0; i<withButtonClass.length; i++){
-alert(withButtonClass[i].innerText); 
+var withButtonClass = document.getElementsByClassName ('btn');
+var quantity = withButtonClass.length;
+var i;
+console.log (withButtonClass);
+for (i = 0; i < quantity; i++){
+console.log (withButtonClass[i].innerText); 
 }
