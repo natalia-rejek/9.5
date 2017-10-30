@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+
+body {
+	background-color: #111a63;
+}
+
+div {
+	text-align: center;
+}
+
+[class^="btn-"] {
+	display: inline-block;
+	min-width: 160px;
+	padding: 15px 30px;
+	margin: 4px 2px;
+	font-family: Quicksand, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border: solid 2px;
+	background-position: 100% 0;
+	background-size: 400%;
+	transition: 0.4s;
+	
+}
+
+.btn-purple {
+	background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
+	border-color: #8e44ad;
+	color: #8e44ad;
+}
+
+.btn-yellow {
+	background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);.
+	border-color: #f1c40f;
+	color: #f1c40f;
+}
+
+.btn-blue {
+	background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+	border-color: #3498db;
+	color: #3498db;
+}
+
+.btn-purple:hover {
+	background-position: 0 100%;
+	color: white;
+}
+
+.btn-yellow:hover {
+	background-position: 0 100%;
+	color: white;
+}
+
+.btn-blue:hover {
+	background-position: 0 100%;
+	color: white;
+}
+
+
+
+.btn-purple {
+	
+	background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
+	
+	border-color: #8e44ad;
+	
+	color: #8e44ad;
+
+}
+
+
+
+.btn-yellow {
+	
+	background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+	border-color: #f1c40f;
+	
+	color: #f1c40f;
+
+}
+
+
+
+.btn-blue {
+	
+	background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+	
+	border-color: #3498db;
+	
+	color: #3498db;
+
+}
+
+
+
+.btn-purple:hover {
+	
+	background-position: 0 100%;
+	
+	color: white;
+
+}
+
+
+
+.btn-yellow:hover {
+	
+	background-position: 0 100%;
+	
+	color: white;
+
+}
+
+
+
+.btn-blue:hover {
+	
+	background-position: 0 100%;
+	
+	color: white;
+
+}
